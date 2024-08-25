@@ -1,0 +1,19 @@
+{
+    "name": "filippo-toso/eml-builder",
+    "description": "A simple class to build EML files",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Filippo Toso",
+            "email": "filippo.toso@creativepark.it"
+        }
+    ],
+    "require": {
+        "php": "^7.0 || ^8.0 || ^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FilippoToso\\EmlBuilder\\": "src"
+        }
+    }
+}
